@@ -1,1 +1,1 @@
-read execute file
+read mulyiple permission
