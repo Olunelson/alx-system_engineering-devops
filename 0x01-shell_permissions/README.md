@@ -1,1 +1,1 @@
-betty su readme
+read who am i 
