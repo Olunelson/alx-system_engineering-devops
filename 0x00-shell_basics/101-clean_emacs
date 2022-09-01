@@ -1,1 +1,2 @@
-clean
+#!/bin/bash
+rm *~
