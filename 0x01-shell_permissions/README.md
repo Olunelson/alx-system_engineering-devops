@@ -1,1 +1,1 @@
-read who am i 
+read groups
