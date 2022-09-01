@@ -1,1 +1,1 @@
-hidden number
+long digit
