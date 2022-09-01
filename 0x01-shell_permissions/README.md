@@ -1,1 +1,1 @@
-read mulyiple permission
+give persmission to everybody
