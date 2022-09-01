@@ -1,1 +1,1 @@
-html
+symbolic
