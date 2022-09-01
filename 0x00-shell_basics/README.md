@@ -1,1 +1,1 @@
-move file
+first delete
