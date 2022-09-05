@@ -1,1 +1,2 @@
-read 4lastlines
+#!/bin/bash
+tail /etc/passwd
