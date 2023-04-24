@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-# connect to server 18.210.18.5 vi key ~/.ssh/school
+#connect to server 18.210.18.5 vi key ~/.ssh/school
 
 ssh -i  ~/.ssh/school ubuntu@18.210.18.5
+
+
