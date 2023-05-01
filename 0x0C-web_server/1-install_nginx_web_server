@@ -1,26 +1,8 @@
 #!/usr/bin/env bash
+# installs nginx and configures it on a remote server
 
-sudo apt-get -y update
-sudo apt-get install -y nginx
-
-#configuration
-mkdir /etc/nginx/html
-
-#creating sample page
-
-echo "Hello World!"> /etc/nginx/html/index.html
-
-#creating server block files
-echo "server {
-	listen 80 default_server;
-	listen [::]:80 default_server;
-
-	root /etc/nginx/html;
-	index index.html index.htm index.nginx-debian.html;
-
-	server_name _;
-}
-" > /etc/nginx/sites-available/default
-
-#Restart Nginx
-nginx -s reload
+apt-get -y update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+echo 'Hello World!' > /var/www/html/index.nginx-debian.html
+service nginx start
