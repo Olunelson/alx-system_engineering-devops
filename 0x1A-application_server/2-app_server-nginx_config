@@ -1,0 +1,6 @@
+# configuration file
+
+ location /airbnb-onepage/ {
+    root /airbnb-onepage/;
+    index index.html;
+    }
